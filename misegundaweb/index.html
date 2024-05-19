@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi segunda página web</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        ol {
+            color:blue;
+        }
+    </style>
+</head>
+
+<!-- Este es un comentario, no se ve -->
+
+<body>
+    <!-- Etiqueta semántica HEADER: guarda la cabecera de nuestra página.-->
+    <header>
+        <h1 class="rojo fondo-azul-claro">¡Hola que tal!</h1>
+    </header>
+
+    <!-- Etiqueta semántica MAIN: guarda el contenido principal de nuestra página.-->
+    <main>
+        <p class="rojo">Me siento muy feliz el día de hoy, por poder hacer un sitio web.</p>
+
+        <ol style="color: blueviolet;">
+            <li>
+                <!-- Abrir la url en la misma página o pestaña.-->
+                <a href="#gatito">Becerrito pequeñito.</a>
+            </li>
+            <li>
+                <!-- Abrir la url en la misma página o pestaña.-->
+                <a href="#pollito">Becerrito.</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/">Google dentro de la página.</a>
+                <!-- Abrir la url en otra página o pestaña.-->
+            </li>
+            <li>
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Google</a>
+            </li>
+        </ol>
+
+
+        <img height="500"
+            class="becerrito pequeñito"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXAsZhppjcT5P02iDFsxkHddTYh-cTcPuVLw&usqp=CAU"
+            alt="berrito1">
+
+        <img id="becerrito" height="500"
+        class="mamifero"
+            src="https://www.sopitas.com/wp-content/uploads/2017/10/becerro-peludo-2.jpg"
+            alt="becerrito2">
+
+        <h3 class="rojo" id="subtitulo">Los becerritos son muy felices en el campo.</h3>
+
+        <p class="colorTextoAzul mamifero">Los becerritos comen mucho pasto</p>
+        
+        <p>
+            <em>Lorem</em> ipsum dolor sit amet consectetur <strong>adipisicing</strong>  elit. Nesciunt adipisci maxime corrupti dicta inventore quos odit quasi in porro saepe cumque fugiat aperiam, exercitationem soluta. Fugiat rem dolores nihil quam.
+        </p>
+        <button>Da click</button>
+        <img id="vaquita" height="500" src="vacaybece.jpeg" alt="vaquita mamá">
+    </main>
+    <!-- Etiqueta semántica FOOTER: guarda el pie de página de nuestra página.-->
+
+    <footer>
+        <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas</a>
+    </footer>
+
+
+</body>
+
+</html>
